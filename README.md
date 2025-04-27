@@ -39,6 +39,7 @@ public Elemento(String id, String descricao, String dataHora, String nomeCliente
         this.nomeCliente = nomeCliente;
         this.proximo = null;
     }
+}
 ```
 
 
@@ -62,7 +63,7 @@ public class Pilha {
     }
 
     public void empilhar(String id, String descricao, String dataHora) {
-        Elemento novo = new Elemento(id, descricao, dataHora, null); // Adicionado null para nomeCliente
+        Elemento novo = new Elemento(id, descricao, dataHora, null);
         novo.proximo = topo;
         topo = novo;
     }
@@ -117,7 +118,7 @@ public class Fila {
     }
 
     public void enfileirar(String id, String nome, String motivo) {
-        Elemento novo = new Elemento(id, motivo, null, nome); // Ajustado a ordem dos parâmetros
+        Elemento novo = new Elemento(id, motivo, null, nome);
         if (estaVazia()) {
             frente = novo;
             tras = novo;
@@ -155,6 +156,7 @@ public class Fila {
         }
     }
 }
+
 ```
 
 
