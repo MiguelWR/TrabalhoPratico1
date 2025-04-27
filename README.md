@@ -174,4 +174,5 @@ O usuário interage via scanner no console, preenchendo as informações conform
 
 ## Demonstração em Vídeo
 
-Link do vídeo com a explicação do funcionamento do sistema:  
+Link do vídeo com a explicação do funcionamento do sistema:
+https://youtu.be/d3oiB8y4k2w
